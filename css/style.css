@@ -29,6 +29,7 @@ body{
     height: 100%;
     width: 100%;
 }
+
 .navbar{
     grid: nav;
     display: flex;
@@ -75,6 +76,7 @@ body{
 
     animation: 2s main-content 0.5s ease-in-out;
 }
+
 .main-content p:first-child{
     font-size: 36px;
     font-weight: 300;
@@ -154,6 +156,7 @@ body{
     grid-column: 4 / 7;
     grid-row: 1 / 2;
 }
+
 .footer{
     display: flex;
     justify-content: space-evenly;
@@ -178,7 +181,15 @@ body{
 
     }
 }
-.footer div:hover img{
+.footer div {
+    background: var(--blue);
+    width: 130px;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.footer div:hover img {
     cursor: pointer;
     transform: translateY(-20px) scale(1.1);
     transition: transform 0.3s ease-in-out;
@@ -203,7 +214,6 @@ body{
 
     animation: loader 0.2s linear forwards;
 }
-
 @keyframes loader {
     0%{
         opacity: 1;
@@ -215,7 +225,7 @@ body{
     }
     100% {
         opacity: 0;
-        visibility: visible;
+        visibility: hidden;
     }
 }
 .loader div{

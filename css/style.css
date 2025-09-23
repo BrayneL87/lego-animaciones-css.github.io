@@ -40,7 +40,7 @@ body{
     width: 100%;
     padding: 0 0 0 80px;
 
-    animation: 2s navbar 0.5s ease-in-out;
+    animation: 5s navbar 0.5s ease-in-out;
 }
 @keyframes navbar{
     0%{
@@ -169,7 +169,7 @@ body{
     transform: translateY(100%);
 
     animation-name: footer;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-delay: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;

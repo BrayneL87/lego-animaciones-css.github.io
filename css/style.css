@@ -8,7 +8,7 @@ body{
     font-family: 'Lato', sans-serif;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .page{
     position: relative;
@@ -169,7 +169,7 @@ body{
     transform: translateY(100%);
 
     animation-name: footer;
-    animation-duration: 0.5s;
+    animation-duration: 3s;
     animation-delay: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
@@ -209,7 +209,7 @@ body{
     transition: transform 0.5s ease-in-out;
 }
 
-/* Loader crculos cargando al inicio  */
+/* Loader circulos cargando al inicio  */
 .loader{
     background: white;
     width: 100%;
@@ -220,7 +220,7 @@ body{
     position: absolute;
     z-index: 3;
 
-    animation: loader 0.2s linear forwards;
+    animation: loader 1s linear forwards;
 }
 @keyframes loader {
     0%{
@@ -298,6 +298,7 @@ body{
 
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 
 }
   .modal__content--close {
@@ -305,6 +306,7 @@ body{
     position: absolute;
     top: 10px;
     right: 10px;
+
   }
 
 .modal__content--slider{

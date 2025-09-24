@@ -71,9 +71,10 @@ Este proyecto es una práctica de **HTML, CSS y JavaScript** donde se desarrolla
 ---
 
 ## ▶️ Cómo usar
-1. Clona el repositorio:
-   ```bash
-   git clone https://braynel87.github.io/lego-animaciones-css.github.io/
+
+* Clona este repositorio:
+* git clone https://braynel87.github.io/lego-animaciones-css.github.io/
+* Abre el archivo index.html en tu navegador.
 
 ---
 

@@ -2,7 +2,9 @@
 
 ---
 
-# 🚀 Proyecto Animación CSS + Modal con Slider
+# 🚀 Proyecto LEGO: Maquetación y Animaciones con CSS
+
+
 
 Este proyecto es una práctica de **HTML, CSS y JavaScript** donde se desarrolla una landing page con:
 
@@ -24,30 +26,33 @@ Este proyecto es una práctica de **HTML, CSS y JavaScript** donde se desarrolla
 
 ## 📂 Estructura del proyecto
 
-├── index.html
 ├── css/
-│ └── style.css
-├── js/
-│ └── app.js
+
+│   └── style.css
+
 ├── img/
-│ ├── lego_lego.png
-│ ├── super-man.png
-│ ├── spiderman.png
-│ ├── robin.png
-│ ├── batman.webp
-│ ├── spider-man_.webp
-│ ├── spider-man-2.webp
-│ ├── spider-man-3.webp
-│ ├── robin1.png
-│ ├── robin2.png
-│ ├── robin3.png
-│ ├── batman1.png
-│ ├── batman2.png
-│ ├── batman3.png
-│ └── ...
+
+│   └── (imágenes de legos y superhéroes)
+
+├── js/
+
+│   └── app.js
+
+├── index.html
+
+└── README.md
 
 
 ---
+
+## ¿Cómo funciona?
+
+1. Al cargar la página, verás un loader animado.
+2. En el footer, selecciona uno de los legos (Spiderman, Robin o Batman).
+3. Se abrirá un modal con un slider de imágenes del personaje seleccionado.
+4. Puedes cerrar el modal haciendo clic en el ícono de cerrar.
+
+--
 
 ## 🖼️ Vista previa
 
@@ -65,7 +70,13 @@ Este proyecto es una práctica de **HTML, CSS y JavaScript** donde se desarrolla
 
 ---
 
-## 📌 Cómo usar
+## ▶️ Cómo usar
 1. Clona el repositorio:
    ```bash
    git clone https://braynel87.github.io/lego-animaciones-css.github.io/
+
+---
+
+👨‍💻 Autor
+
+Proyecto creado por BrayneL87 ✨
